@@ -1,0 +1,93 @@
+header{
+  /*! background-color: #eee; */
+  padding-top: 34px;
+  padding-bottom: 34px;
+  position: absolute;
+  width: 100%;
+}
+header div.wrap{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+header  h1{
+    
+}
+header  h1 a{
+    
+  background-image: url(../img/preview.png);
+  width: 500px;
+  height: 500px;
+  display: block;
+  font-size: 0;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -110px;
+}
+header ul.gnb{
+
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+header ul.gnb li{
+
+  width: 20%;
+  /*! border: 1px solid; */
+  text-align: center;
+}
+header ul.gnb li a{
+  border-top: 1px solid transparent;
+  display: block;
+  /*! height: 100%; */
+  /*! border: 1px solid; */
+  line-height: 2;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  transition: all 0.5s;
+  color: navy;
+}
+header ul.gnb li a:hover{
+  
+  display: block;
+  color: red;
+  border-top:1px solid red;
+}
+header ul.enb li:nth-child(2) a{
+  
+}
+header ul.enb li:nth-child(2) a::before{
+  content:"I";
+  margin-right: 6px;
+}
+header ul.enb{
+
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: -23px;
+  font-size: 11px;
+  /*! gap: 10px; */
+}
+header ul.enb li{
+
+}
+header ul.enb li a{
+
+  padding: 0 3px;
+  line-height: 0.7;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+header ul.enb li a:hover{
+  color: orange;
+}
+header ul.enb li:nth-child(1) a{
+  
+}
+header ul.enb li:nth-child(1) a::after{
+  content:"▼";
+  margin-left: 6px;
+}
